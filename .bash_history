@@ -433,3 +433,37 @@ git config --global --list
 git config --global user.email
 git config --global user.email "shaikarif6454@gmail.com
 git config --global --list
+git checkout -b feature1
+echo "This is a new feature." >> hello.txt
+git add hello.txt
+git commit -m "Added new feature line in feature1 branch"
+git push -u origin feature1
+git checkout main
+git pull
+git merge feature1
+git push
+git checkout main
+git pull
+git push
+git remote -v
+git push -u origin main
+git remote -v
+git checkout feature1
+echo "This is a new line" >>test.txt
+git add
+git add .
+git commit -m "Added new line in test.txt"
+git push origin feature1
+git checkout feature1
+echo "This is a new feature1 branch" >> notes.txt
+git add notes.txt
+git commit -m "Added notes.txt in featur1 branch
+git commit -m "Added notes.txt in feature1.txt"
+git push origin feature1
+ls
+vim calculator.sh
+ls
+vimcalculator.sh
+vim calculator.sh
+ls
+vim calculator.sh
