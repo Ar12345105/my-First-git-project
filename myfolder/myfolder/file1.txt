@@ -1,0 +1,2 @@
+Hello, this is my first nano file.
+I'm learning Linux on WSL.

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Hello Arif! Welcome to Shell Scripting."
+echo "Today is: $(date)"
+echo "Your Current Directory is: $(pwd)"
